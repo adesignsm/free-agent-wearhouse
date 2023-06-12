@@ -1,0 +1,22 @@
+#hero-container {
+    position: relative;
+    height: 100%;
+    width: 100vw;
+    z-index: 9;
+}
+
+#hero-container #background-image {
+    height: auto;
+    width: 100%;
+    transform: scale(1.1);
+}
+
+#hero-container #wing-image {
+    position: absolute;
+    margin-top: 18%;
+    left: 46.5%;
+    width: 17vw;
+    transform-origin: left;
+    transform: rotate(25deg);
+    transition: all .1s ease;
+}
