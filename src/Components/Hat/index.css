@@ -38,7 +38,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    top: -200%; /*12%*/
+    top: 1.5%; /*12%*/
 }
 
 #product-container .hat-container .hat .top-product-container img {
@@ -61,7 +61,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    right: -200%; /*0*/
+    right: -10.5%; /*0*/
 }
 
 #product-container .hat-container .hat .bottom-product-container #HAT-BRIM {
@@ -83,7 +83,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 200%; /*23%*/
+    top: 33.5%; /*23%*/
 }
 
 #product-container .hat-container .hat .left-product-container #HAT-FRONT-LEFT {
@@ -100,7 +100,7 @@
     align-items: center;
     position: relative;
     top: 23%;
-    left: -200%;
+    left: -10.5%;
 }
 
 #product-container .hat-container .hat .right-product-container #HAT-FRONT-RIGHT {
@@ -116,7 +116,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 200%; /*-21%*/
+    top: -10.5%; /*-21%*/
 }
 
 #product-container .hat-container .hat .bottom-brim-product-container #HAT-BRIM {
