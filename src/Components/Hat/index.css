@@ -6,7 +6,7 @@
 
 #product-container .hat-container {
     display: flex;
-    height: 100vh;
+    height: 100%;
     width: 90vw;
     padding: 0 1.5rem;
 }

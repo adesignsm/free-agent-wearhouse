@@ -1,0 +1,15 @@
+#thousand-jacket-container {
+    height: 100vh;
+    width: 100%;
+}
+
+#thousand-jacket-container canvas {
+    width: 80%;
+}
+
+#thousand-jacket-container .description p {
+    color: #fff;
+    font-style: italic;
+    font-size: x-large;
+    padding: 1.5rem;
+}

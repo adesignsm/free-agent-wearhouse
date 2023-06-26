@@ -1,0 +1,8 @@
+#office-world-container {
+    height: 100%;
+    width: 100%;
+}
+
+#office-world-container canvas {
+    width: 100%;
+}
