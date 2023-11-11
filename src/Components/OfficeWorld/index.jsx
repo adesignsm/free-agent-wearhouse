@@ -40,9 +40,9 @@ const OfficeWorld = () => {
                     <div id="office-world-canvas" className="canvas">
                         <Suspense>
                             <Canvas frameloop="always" color={"#fff"} camera={{fov: 75, near: 0.1, far: 10000, position: [0, 0, 20]}}>
-                                <ambientLight intensity={1} />
+                                <ambientLight intensity={0.1} />
                                 <Desk />
-                                <OrbitControls enableZoom={true}/>
+                                <OrbitControls enableZoom={false}/>
                                 {/* <PointerLockControls /> */}
                             </Canvas>
                         </Suspense>

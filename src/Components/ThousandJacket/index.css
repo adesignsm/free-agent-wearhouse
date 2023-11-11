@@ -13,4 +13,22 @@
     font-style: italic;
     font-size: x-large;
     padding: 1.5rem;
+    text-align: center;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 2156px) {
+    #thousand-jacket-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #thousand-jacket-container canvas {
+        width: 70vw;
+    }
+
+    #thousand-jacket-container .description {
+        width: 70vw;
+    }
 }

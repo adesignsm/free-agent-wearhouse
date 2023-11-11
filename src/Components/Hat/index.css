@@ -152,8 +152,23 @@
     }
 }
 
-@media only screen and (min-width: 1025px) and (max-width: 2000px) {
+@media only screen and (min-width: 1024px) and (max-width: 2156px) {
+    #product-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     #product-container .hat-container {
-        flex-direction: row;
+        flex-direction: column;
+        width: 70vw;
+    }
+
+    #product-container .hat-container .product-container img {
+        width: 20% !important;
+    }
+
+    #product-container .hat-container .description p {
+        text-align: center;
     }
 }

@@ -6,6 +6,7 @@
 
 #embroidery-container .animation-container img {
     width: 100%;
+    cursor: pointer;
 }
 
 #embroidery-container .description-container p {
@@ -13,4 +14,16 @@
     font-style: italic;
     font-size: x-large;
     text-align: center;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 2156px) {
+    #embroidery-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #embroidery-container .animation-container img {
+        width: 100%;
+    }
 }
