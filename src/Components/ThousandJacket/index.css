@@ -1,10 +1,11 @@
 #thousand-jacket-container {
-    height: 100vh;
+    height: auto;
     width: 100%;
 }
 
 #thousand-jacket-container canvas {
     width: 80%;
+    height: 100vh;
 }
 
 #thousand-jacket-container .description p {

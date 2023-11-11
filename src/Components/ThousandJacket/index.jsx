@@ -278,7 +278,8 @@ const ThousandJacket = () => {
                         <Buttons />
                         <OrbitControls enableZoom={false} maxAzimuthAngle={0.4} minAzimuthAngle={-0.4} maxPolarAngle={1.9} minPolarAngle={0.9} />
                     </Canvas>
-                    <div className="description">
+                </Suspense>
+                <div className="description">
                         <p>
                             Introducing our Custom Headwear Program: Elevate your style with personalized Accesories!
                             <br />
@@ -292,8 +293,7 @@ const ThousandJacket = () => {
                             Wether you're an individual, a business, or an organization, our Custom Headwear Program serves
                             any size company.
                         </p>
-                    </div>
-                </Suspense>
+                </div>
             </div>
         </>
     )

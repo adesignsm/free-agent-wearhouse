@@ -5,8 +5,8 @@ import Embroidery from "./Components/Embroidery";
 import Hat from "./Components/Hat";
 import ThousandJacket from "./Components/ThousandJacket";
 import OfficeWorld from "./Components/OfficeWorld";
-/*3D world */
-/*FAQ */
+import FAQ from "./Components/FAQ";
+
 /*GALLERY */
 
 import "./root.css";
@@ -22,6 +22,8 @@ const App = () => {
             <Embroidery />
             <Hat />
             <ThousandJacket />
+            <OfficeWorld />
+            <FAQ />
         </>
     )
 }
