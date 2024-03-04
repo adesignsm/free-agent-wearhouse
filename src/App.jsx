@@ -1,11 +1,8 @@
-import React, { useState, useRef, useEffect } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Hero from "./Components/Hero";
-import Embroidery from "./Components/Embroidery";
-import Hat from "./Components/Hat";
-import ThousandJacket from "./Components/ThousandJacket";
-import OfficeWorld from "./Components/OfficeWorld";
-import FAQ from "./Components/FAQ";
+import { Home } from "./Routes/Home";
+import { Workshops } from "./Routes/Workshops";
+import { Inquiries } from "./Routes/Inquiries";
 
 /*GALLERY */
 
@@ -18,12 +15,13 @@ const App = () => {
     
     return (
         <>
-            <Hero />
-            <Embroidery />
-            <Hat />
-            <ThousandJacket />
-            <OfficeWorld />
-            <FAQ />
+            <BrowserRouter>
+                <Routes>
+                    <Route exact path='/' element={<Home />} />
+                    <Route path='/workshops' element={<Workshops />} />
+                    <Route path='/inquiries' element={<Inquiries />} />
+                </Routes>
+            </BrowserRouter>
         </>
     )
 }

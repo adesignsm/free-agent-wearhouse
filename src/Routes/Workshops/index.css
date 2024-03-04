@@ -1,0 +1,23 @@
+.workshops-page .booking-selection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+    gap: 15px;
+}
+
+.workshops-page .booking-selection button {
+    color: #fff;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: 1rem;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.workshops-page .booking-selection button:hover {
+    color: #177146;
+    background-color: #fff;
+}
